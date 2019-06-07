@@ -3,18 +3,18 @@
 (function() {
 	
 	// Dimensions of the whole book
-	var BOOK_WIDTH = 1280;
-	var BOOK_HEIGHT = 1280;
+	var BOOK_WIDTH = 830;
+	var BOOK_HEIGHT = 260;
 	
 	// Dimensions of one page in the book
-	var PAGE_WIDTH = 600;
-	var PAGE_HEIGHT = 1280;
+	var PAGE_WIDTH = 400;
+	var PAGE_HEIGHT = 250;
 	
 	// Vertical spacing between the top edge of the book and the papers
 	var PAGE_Y = ( BOOK_HEIGHT - PAGE_HEIGHT ) / 2;
 	
 	// The canvas size equals to the book dimensions + this padding
-	var CANVAS_PADDING = 120;
+	var CANVAS_PADDING = 60;
 	
 	var page = 0;
 	
